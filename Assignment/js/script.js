@@ -4,7 +4,7 @@ var helloSpeaker = {
 
 (function () {
 	helloSpeaker.speak = function (username){
-		return (helloSpeaker.speakword+""+username);
+		return (helloSpeaker.speakword+" "+username);
 	}
 })();
 
@@ -14,7 +14,7 @@ var byeSpeaker = {
 
 (function () {
 	byeSpeaker.speak = function (username){
-		return (byeSpeaker.speakword+""+username);
+		return (byeSpeaker.speakword+" "+username);
 	}
 })();
 (function () {
