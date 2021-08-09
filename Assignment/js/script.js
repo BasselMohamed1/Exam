@@ -9,7 +9,7 @@ var helloSpeaker = {
 })();
 
 var byeSpeaker = {
-	speakword : "Hello",
+	speakword : "Goodbye",
 };
 
 (function () {
